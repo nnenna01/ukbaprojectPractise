@@ -1,9 +1,12 @@
 package stepDefs;
 
+import base.BaseUtil;
 import io.cucumber.java.en.Given;
 
-public class Ukba_stepDefs extends baseutil{
-    this Base.base;
+public class Ukba_stepDefs extends BaseUtil {
+    private BaseUtil base;
+
+public Ukba_stepDefs(BaseUtil base){this.base = base;}
 
 
 
